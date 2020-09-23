@@ -1,4 +1,4 @@
-Atlan Backend Internship Task/Challenge
+ABI Task/Challenge
 
 The dummy data used is in the file ```Plant_Generation_Data.json``` acquired from Kaggle's dataset.
 https://www.kaggle.com/anikannal/solar-power-generation-data
