@@ -1,13 +1,13 @@
 Atlan Backend Internship Task/Challenge
 
-The data used is Plant_Generation_Data.json from Kaggle.
+The dummy data used is in the file ```Plant_Generation_Data.json``` acquired from Kaggle's dataset.
 https://www.kaggle.com/anikannal/solar-power-generation-data
 
-main.py is a server written in Flask.
+```main.py``` is a server written in Flask.
 
-test.py is used to test the server.
+```test.py``` is used to test the server.
 
-The docker image named ubuntu_flask_server.tar can be found in the folder in the link below.
+The docker image named ```ubuntu_flask_server.tar``` can be found in the folder in the link below.
 https://drive.google.com/drive/folders/1v4VZATZYa2JzF6RJ10IVkay1hvCKRWOg?usp=sharing
 
 
