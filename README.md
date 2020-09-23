@@ -43,8 +43,8 @@ Guide for setting up the server in Ubuntu 20.4:
   \
 4) Now to check if the server from container port is connected to host port. Open browers and enter the url ```http://0.0.0.0:<port>```, with ```<port>``` being the port you used in step 2.b. 
 \
-   If the server is running, laoded page will show the message 
-   \
+   If the server is running, loaded page will display the message 
+ \
    ```
    Congratulations! Your server is running.
    ``` 
