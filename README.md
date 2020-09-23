@@ -7,9 +7,7 @@ https://www.kaggle.com/anikannal/solar-power-generation-data
 
 ```test.py``` is used to test the server.
 
-The docker image named ```ubuntu_flask_server.tar``` can be found in the folder in the link below.
-https://drive.google.com/drive/folders/1v4VZATZYa2JzF6RJ10IVkay1hvCKRWOg?usp=sharing
-
+The docker image named ```ubuntu_flask_server.tar``` can be found in the link provided in email.
 
 Guide for setting up the server in Ubuntu 20.4:
 
