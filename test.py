@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "http://0.0.0.0:12345"
 
 response = requests.get(BASE_URL + "/upload/request/1_4")
 print(response.json())

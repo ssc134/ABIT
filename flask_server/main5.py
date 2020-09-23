@@ -1,7 +1,11 @@
+#!/usr/bin/python3.8
 from flask import Flask, request
 from flask_restful import Api, Resource, abort
 import json
+import os
 
+# print(os.environ.get("PORT"))
+# HTTP_PORT = int(os.environ.get("PORT"))
 
 with open("Plant_Generation_Data.json") as f:
     data = json.load(f)
@@ -9,6 +13,11 @@ with open("Plant_Generation_Data.json") as f:
 
 app = Flask(__name__)
 api = Api(app=app)
+
+
+@app.route("/")
+def index():
+    return "Congratulations! Your server is running."
 
 
 class Upload(Resource):
@@ -42,4 +51,4 @@ class Upload(Resource):
 api.add_resource(Upload, "/upload/request/<string:req>")
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=True, port=8888, host="0.0.0.0")
